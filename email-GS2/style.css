@@ -1,0 +1,249 @@
+html {
+  overflow-y: scroll;
+  font-size: 66.5%;
+}
+body {
+	margin: 0 auto;
+}
+*strong{
+	font-family: Arial Rounded MT Bold;
+}
+.button a {
+    background: #303135;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    width: 98px;
+    font-family: Arial Rounded MT Bold;
+    font-size: 15px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -o-border-radius: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 4%;
+}
+/* LAYOUT */
+.body{
+	    background-color: #edeef2;
+}
+.center{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+.topo{
+	padding-top: 29px;
+	padding-bottom: 10px;
+}
+.banner{
+	/*position: fixed;*/
+	z-index: -1;
+	width: 100%;
+    height: 228px;
+	background-size: cover;
+	background-attachment: fixed;
+	background: url("../testeGS2/img/banner.jpg") no-repeat;
+}
+.conteudo{
+
+}
+.textos{
+	text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+.textos strong{
+	font-size: 35px;
+}
+.textos span{
+	font-size: 20px;
+}
+.anuncioleft{
+	width: 265px;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    height: 425px;
+    margin-bottom: 30px;
+}
+.anuncioleft strong{
+	display: block;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #58677e;
+    color: #f3faff;
+}
+.anuncioleft p{
+	display: block; 
+ 	color: #58677e; 
+ 	font-size:10px;
+ 	margin: 10px;
+}
+ span.azulescuro{
+ 	display: block; 
+ 	color: #58677e; 
+ 	font-size:13px;
+ 	text-align: center;
+}
+span.azulescuro strong {
+    font-size: 12px;
+    background-color: #fff;
+    color: #939393;
+}
+p.valido {
+    text-align: center;
+    color: #9b9b9b;
+}
+.anuncioright{
+	width: 265px;
+    height: 100%;
+    background-color: #fff;
+    height: 425px;
+    margin-bottom: 30px;
+    float: right;  
+}
+.anuncioright strong{
+	display: block;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #58677e;
+    color: #f3faff;
+}
+.anuncioright  p{
+	display: block; 
+ 	color: #58677e; 
+ 	font-size:10px;
+ 	margin: 10px;
+}
+strong.vermelho {
+    background-color: #C23B38;
+}
+span.vermelho {
+    text-align: center;
+    display: block;
+}
+span.vermelho strong {
+    font-size: 12px;
+    background-color: #fff;
+    color: #939393;
+}
+span.vermelho {
+    display: block;
+    color: #58677e;
+    font-size: 13px;
+    text-align: center;
+}
+strong.marron {
+    background-color: #C18F36;
+}
+span.marron {
+    text-align: center;
+    display: block;
+}
+span.marron strong {
+    font-size: 12px;
+    background-color: #fff;
+    color: #939393;
+}
+span.marron {
+    display: block;
+    color: #58677e;
+    font-size: 13px;
+    text-align: center;
+}
+ .ofertas, .redes {
+    clear: both;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+.redes{
+	font-size: 27px;
+}
+.button {
+    margin-bottom: 60px;
+    padding-bottom: 100px;
+}
+.redessociais {
+    text-align: center;  
+}
+.redessociais a{
+	padding: 1%;
+}
+footer.rodape {
+    font-size: 14px;
+    font-family: Arial Rounded MT Bold;
+    color: #3E3F41;
+    margin-top: 45px;
+    padding: 2%;
+}
+@media only screen and (max-width: 550px) {
+    body {
+        background-color: #000;
+    }
+}
+@media (max-width: 600px) {
+	.banner {
+    margin-left: -5px;
+}
+  .anuncioright, .anuncioleft {
+    margin-left: 26%;
+    float: left;
+   }
+	.button{
+		padding: 0 25%;
+	}
+}
+@media (max-width: 550px) {
+  .anuncioright, .anuncioleft {
+    margin-left: 23%;
+   }
+	.button{
+		padding: 0 20%;
+	}
+}
+@media (max-width: 460px) {
+  .anuncioright, .anuncioleft {
+    margin-left: 16%;
+   }
+	.ofertas, .redes{
+		padding: 0 32%;	
+	}
+	.button{
+		padding: 0 32%;
+	}
+}
+@media (max-width: 370px) {
+  .anuncioright, .anuncioleft {
+    margin-left: 10%;
+   }
+	.ofertas, .redes{
+		padding: 0 12%;	
+	}
+	.button{
+		padding: 0 32%;
+	}
+}
+@media (max-width: 325px) {
+  .anuncioright, .anuncioleft {
+    margin-left: 6%;
+   }
+	.ofertas, .redes{
+		padding: 0 12%;	
+	}
+	.button{
+		padding: 0 27%;
+	}
+}
