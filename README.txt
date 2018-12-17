@@ -6,7 +6,7 @@ Using HTML, Css, Imgens. Claiming for table to be readjusted in the various size
 
 Can be sent through Mailchimp, Rd Station and other tools for Marketing
 
-README Em Português
+README Em Português.
 
 Estes projetos foram feito para empresa existemte no mercado Imobiliario, Atacados e outos.
 
